@@ -39,7 +39,7 @@ const MyTechCard = () => {
           {stack1.map((tech, index) => (
             <div
               key={index}
-              className="flex items-center justify-center gap-2 aspect-square w-[72px] bg-neutral-200 dark:bg-neutral-800 rounded-2xl mx-2 my-0"
+              className="flex items-center justify-center gap-2 aspect-square w-[72px]  rounded-2xl mx-2 my-0"
             >
               <Image src={tech.icon} alt={tech.name} width={36} height={36} />
             </div>
@@ -57,7 +57,7 @@ const MyTechCard = () => {
           {stack2.map((tech, index) => (
             <div
               key={index}
-              className="flex items-center justify-center gap-2 aspect-square w-[72px] bg-neutral-200 dark:bg-neutral-800 rounded-2xl mx-2 my-0"
+              className="flex items-center justify-center gap-2 aspect-square w-[72px]  rounded-2xl mx-2 my-0"
             >
               <Image src={tech.icon} alt={tech.name} width={36} height={36} />
             </div>
