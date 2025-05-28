@@ -17,10 +17,14 @@ const AboutCard = () => {
         </div>
 
         <p className="dark:text-white text-slate-900 tracking-wide leading-6 text-xs sm:text-sm">
-          I am passionate about building beautiful and functional user
-          interfaces.
+          A Software Engineer with a passion for building useful and
+          user-friendly applications.
           <br />
-          Currently work at TFL on the Station team.
+          Building AI-powered Solutions, using{" "}
+          <span className="font-semibold">ADK</span>,{" "}
+          <span className="font-semibold">Gemini</span>,{" "}
+          <span className="font-semibold">LangChain</span> and{" "}
+          <span className="font-semibold">OpenAI</span> has been my main focus.
         </p>
       </div>
     </CardWrapper>

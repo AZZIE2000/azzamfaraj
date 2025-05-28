@@ -8,32 +8,21 @@ const MyTechCard = () => {
     { name: "TypeScript", icon: "/tech-icons/typescript.svg" },
     { name: "JavaScript", icon: "/tech-icons/javascript.svg" },
     { name: "Python", icon: "/tech-icons/python.svg" },
-    //
+
     { name: "Tailwind CSS", icon: "/tech-icons/tailwindcss.svg" },
     { name: "HTML5", icon: "/tech-icons/html5.svg" },
     { name: "CSS3", icon: "/tech-icons/css3.svg" },
-    //
+    { name: "Framer", icon: "/tech-icons/framer.svg" },
+  ];
+  const stack2 = [
     { name: "Cursor", icon: "/tech-icons/cursor.svg" },
     { name: "Github", icon: "/tech-icons/github.svg" },
     { name: "Vercel", icon: "/tech-icons/vercel.svg" },
     { name: "Azure", icon: "/tech-icons/azure.svg" },
     { name: "Claude", icon: "/tech-icons/claude.svg" },
-    { name: "Claude", icon: "/tech-icons/claude.svg" },
-  ];
-  const stack2 = [
-    { name: "React", icon: "/tech-icons/reactjs.svg" },
-    { name: "Next.js", icon: "/tech-icons/nextjs.svg" },
-    { name: "TypeScript", icon: "/tech-icons/typescript.svg" },
-    { name: "JavaScript", icon: "/tech-icons/javascript.svg" },
-    { name: "Tailwind CSS", icon: "/tech-icons/tailwindcss.svg" },
-    { name: "HTML5", icon: "/tech-icons/html5.svg" },
-    { name: "CSS3", icon: "/tech-icons/css3.svg" },
-    { name: "VS Code", icon: "/tech-icons/cursor.svg" },
-    { name: "Figma", icon: "/tech-icons/figma.svg" },
-    { name: "Arc", icon: "/tech-icons/arc.svg" },
-    { name: "Github", icon: "/tech-icons/github.svg" },
-    { name: "Jira", icon: "/tech-icons/jira.svg" },
-    { name: "Vercel", icon: "/tech-icons/vercel.svg" },
+    { name: "Gemini", icon: "/tech-icons/gemini.svg" },
+    { name: "Ollama", icon: "/tech-icons/ollama.svg" },
+    { name: "ADK", icon: "/tech-icons/adk.png" },
   ];
 
   return (

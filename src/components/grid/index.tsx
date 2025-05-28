@@ -107,9 +107,9 @@ const Grid = () => {
               <BlurFade delay={0.1}>
                 <ResumeCard />
               </BlurFade>
-              <BlurFade delay={0.12}>
+              {/* <BlurFade delay={0.12}>
                 <ThemeToggle />
-              </BlurFade>
+              </BlurFade> */}
             </div>
           </div>
           <div
