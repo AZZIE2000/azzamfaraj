@@ -16,7 +16,7 @@ const AboutCard = () => {
           </div>
         </div>
 
-        <p className="dark:text-white text-slate-900 tracking-wide leading-6 text-xs sm:text-sm">
+        <p className="dark:text-white text-slate-900 tracking-wide leading-6 text-xs  sm:text-sm">
           A Software Engineer with a passion for building useful and
           user-friendly applications.
           <br />

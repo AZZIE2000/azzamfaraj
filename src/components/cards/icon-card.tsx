@@ -1,25 +1,22 @@
 import Image from "next/image";
-import { useTheme } from "next-themes";
 import CardWrapper from "./card-wrapper";
 
-const IconCard = ({ title, link }: { title: string, link: string }) => {
-  const { resolvedTheme } = useTheme();
-
+const IconCard = ({ title, link }: { title: string; link: string }) => {
   const icons = {
-    "Linkedin": {
-      src: resolvedTheme === "dark" ? "/social-icons/linkedin.svg" : "/social-icons/linkedin-dark.svg",
+    Linkedin: {
+      src: "/social-icons/linkedin.svg",
       classNames: "aspect-square",
     },
-    "Github": {
-      src: resolvedTheme === "dark" ? "/social-icons/github.svg" : "/social-icons/github-dark.svg",
+    Github: {
+      src: "/social-icons/github.svg",
       classNames: "aspect-[49/48]",
     },
-    "Codepen": {
-      src: resolvedTheme === "dark" ? "/social-icons/codepen.svg" : "/social-icons/codepen-dark.svg",
-      classNames: "aspect-square",
+    DEV: {
+      src: "/social-icons/dev.svg",
+      classNames: "aspect-[25/24]",
     },
-    "Email": {
-      src: resolvedTheme === "dark" ? "/social-icons/email.svg" : "/social-icons/email-dark.svg",
+    Email: {
+      src: "/social-icons/email.svg",
       classNames: "aspect-[25/24]",
     },
   };
@@ -33,7 +30,9 @@ const IconCard = ({ title, link }: { title: string, link: string }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className={`relative h-full w-auto ${icons[title as keyof typeof icons]?.classNames}`}>
+          <div
+            className={`relative h-full w-auto ${icons[title as keyof typeof icons]?.classNames}`}
+          >
             <Image
               src={icons[title as keyof typeof icons]?.src}
               alt={title}

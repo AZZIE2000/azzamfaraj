@@ -6,7 +6,7 @@ const MapCard = () => {
     <CardWrapper>
       <Image
         className={"h-full w-full bg-center rounded-3xl object-cover "}
-        src="/map2.png"
+        src="/map-amman.png"
         alt="map"
         width={300}
         height={300}

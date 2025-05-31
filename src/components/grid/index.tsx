@@ -144,7 +144,7 @@ const Grid = () => {
             <BlurFade delay={0.24}>
               <IconCard
                 title="Linkedin"
-                link="https://www.linkedin.com/in/joshuabrigati/"
+                link="https://www.linkedin.com/in/azzam-faraj/"
               />
             </BlurFade>
           </div>
@@ -156,24 +156,18 @@ const Grid = () => {
             }}
           >
             <BlurFade delay={0.26}>
-              <IconCard
-                title="Github"
-                link="https://github.com/JoshuaBrigati"
-              />
+              <IconCard title="Github" link="https://github.com/AZZIE2000" />
             </BlurFade>
           </div>
           <div
-            key="codepen"
+            key="DEV"
             className={cn(styles.itemGrab, styles.item)}
             style={{
               transitionDuration: isMounted ? "500ms" : "0ms",
             }}
           >
             <BlurFade delay={0.28}>
-              <IconCard
-                title="Codepen"
-                link="https://codepen.io/JoshuaBriagti/pens/showcase"
-              />
+              <IconCard title="DEV" link="https://dev.to/azzam_faraj" />
             </BlurFade>
           </div>
           <div
@@ -184,7 +178,7 @@ const Grid = () => {
             }}
           >
             <BlurFade delay={0.3}>
-              <IconCard title="Email" link="mailto:brigati.joshua@gmail.com" />
+              <IconCard title="Email" link="mailto:azzam.faraj0@gmail.com" />
             </BlurFade>
           </div>
           <div

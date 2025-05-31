@@ -5,7 +5,7 @@ module.exports = {
   content: [
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  darkMode: 'selector',
+  darkMode: 'class',
   theme: {
     screens: {
       'xs': '440px',
