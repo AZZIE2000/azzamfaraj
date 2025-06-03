@@ -19,7 +19,7 @@ import {
   ResumeCard,
   IconCard,
   StationUICard,
-  AllianceDaoCard,
+  PoSystem,
   StationSetupCard,
   AllianceLandingCard,
   StationLandingCard,
@@ -203,70 +203,16 @@ const Grid = () => {
               <JobsCard />
             </BlurFade>
           </div>
+          {/* Projects */}
           <div
-            key="station-ui"
+            key="po-system"
             className={cn(styles.itemGrab, styles.item)}
             style={{
               transitionDuration: isMounted ? "700ms" : "0ms",
             }}
           >
             <BlurFade delay={0.5}>
-              <StationUICard />
-            </BlurFade>
-          </div>
-          <div
-            key="station-landing"
-            className={cn(styles.itemGrab, styles.item)}
-            style={{
-              transitionDuration: isMounted ? "700ms" : "0ms",
-            }}
-          >
-            <BlurFade delay={0.55}>
-              <StationLandingCard />
-            </BlurFade>
-          </div>
-          <div
-            key="station-setup"
-            className={cn(styles.itemGrab, styles.item)}
-            style={{
-              transitionDuration: isMounted ? "700ms" : "0ms",
-            }}
-          >
-            <BlurFade delay={0.6}>
-              <StationSetupCard />
-            </BlurFade>
-          </div>
-          <div
-            key="alliance-dao"
-            className={cn(styles.itemGrab, styles.item)}
-            style={{
-              transitionDuration: isMounted ? "700ms" : "0ms",
-            }}
-          >
-            <BlurFade delay={0.65}>
-              <AllianceDaoCard />
-            </BlurFade>
-          </div>
-          <div
-            key="alliance-landing"
-            className={cn(styles.itemGrab, styles.item)}
-            style={{
-              transitionDuration: isMounted ? "700ms" : "0ms",
-            }}
-          >
-            <BlurFade delay={0.7}>
-              <AllianceLandingCard />
-            </BlurFade>
-          </div>
-          <div
-            key="developer-landing"
-            className={cn(styles.itemGrab, styles.item)}
-            style={{
-              transitionDuration: isMounted ? "700ms" : "0ms",
-            }}
-          >
-            <BlurFade delay={0.75}>
-              <DeveloperLandingCard />
+              <PoSystem />
             </BlurFade>
           </div>
         </ResponsiveGridLayout>

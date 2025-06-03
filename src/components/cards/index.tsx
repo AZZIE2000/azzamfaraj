@@ -3,7 +3,7 @@ export { default as CardWrapper } from "./card-wrapper";
 export { default as MapCard } from "./map-card";
 export { default as ResumeCard } from "./resume-card";
 export { default as IconCard } from "./icon-card";
-export { default as AllianceDaoCard } from "./project-cards/alliance-dao-card";
+export { default as PoSystem } from "./project-cards/po-system";
 export { default as AllianceLandingCard } from "./project-cards/alliance-landing-card";
 export { default as DeveloperLandingCard } from "./project-cards/developer-landing-card";
 export { default as StationLandingCard } from "./project-cards/station-landing-card";
