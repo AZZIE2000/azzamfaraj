@@ -24,6 +24,7 @@ import {
   AllianceLandingCard,
   StationLandingCard,
   DeveloperLandingCard,
+  Project2,
 } from "@/components/cards";
 import GooeyNav from "../GooeyNav";
 import Squares from "../Squares";
@@ -213,6 +214,17 @@ const Grid = () => {
           >
             <BlurFade delay={0.5}>
               <PoSystem />
+            </BlurFade>
+          </div>
+          <div
+            key="project2"
+            className={cn(styles.itemGrab, styles.item)}
+            style={{
+              transitionDuration: isMounted ? "700ms" : "0ms",
+            }}
+          >
+            <BlurFade delay={0.5}>
+              <Project2 />
             </BlurFade>
           </div>
         </ResponsiveGridLayout>

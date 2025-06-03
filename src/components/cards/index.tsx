@@ -4,6 +4,7 @@ export { default as MapCard } from "./map-card";
 export { default as ResumeCard } from "./resume-card";
 export { default as IconCard } from "./icon-card";
 export { default as PoSystem } from "./project-cards/po-system";
+export { default as Project2 } from "./project-cards/project2";
 export { default as AllianceLandingCard } from "./project-cards/alliance-landing-card";
 export { default as DeveloperLandingCard } from "./project-cards/developer-landing-card";
 export { default as StationLandingCard } from "./project-cards/station-landing-card";
