@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${silka.className}`}>
-        <ThemeProvider attribute="class">
+        <ThemeProvider attribute="class" forcedTheme="dark">
           <div
             style={{
               flex: "none",

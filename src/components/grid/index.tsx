@@ -217,7 +217,7 @@ const Grid = () => {
             </BlurFade>
           </div>
           <div
-            key="project2"
+            key="tbd"
             className={cn(styles.itemGrab, styles.item)}
             style={{
               transitionDuration: isMounted ? "700ms" : "0ms",
